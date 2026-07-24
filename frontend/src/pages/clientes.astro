@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav';
+import ClientesApp from '../components/ClientesApp';
+---
+
+<Layout title="Clientes - Sistema de Remitos">
+	<div class="min-h-screen bg-slate-50">
+		<Nav client:load />
+		<ClientesApp client:load />
+	</div>
+</Layout>

@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav';
+import Dashboard from '../components/Dashboard';
+---
+
+<Layout title="Sistema de Remitos">
+	<div class="min-h-screen bg-slate-50">
+		<Nav client:load />
+		<Dashboard client:load />
+	</div>
+</Layout>

@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LoginForm from '../components/LoginForm';
+---
+
+<Layout title="Iniciar sesion - Sistema de Remitos">
+	<main class="min-h-screen flex items-center justify-center bg-slate-50 px-4">
+		<LoginForm client:load />
+	</main>
+</Layout>

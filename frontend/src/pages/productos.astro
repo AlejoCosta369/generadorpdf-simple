@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav';
+import ProductosApp from '../components/ProductosApp';
+---
+
+<Layout title="Productos - Sistema de Remitos">
+	<div class="min-h-screen bg-slate-50">
+		<Nav client:load />
+		<ProductosApp client:load />
+	</div>
+</Layout>
